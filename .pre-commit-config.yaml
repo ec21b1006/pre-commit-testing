@@ -31,19 +31,20 @@ repos:
 #        additional_dependencies: [tokenize-rt==3.2.0]
 
 # -   repo: git://github.com/FalconSocial/pre-commit-python-sorter
-#     rev: 1.0.4
+#     sha: 1.0.4
 #     hooks:
 #     -   id: python-import-sorter
 #         args: ['--check-only']
 # #       args: ['--silent-overwrite']
+
 # -   repo: git://github.com/guykisel/prospector-mirror
-#     rev: v0.8  # Use the sha / tag you want to point at
+#     rev: v0.8
 #     hooks:
 #     -   id: prospector
-# -   repo: https://github.com/asottile/pyupgrade
-#     rev: v3.0.0
-#     hooks:
-#     -   id: pyupgrade
+-   repo: https://github.com/asottile/pyupgrade
+    rev: v3.0.0
+    hooks:
+    -   id: pyupgrade
 # -   repo: https://github.com/jendrikseipp/vulture
 #     rev: 'v2.3'  # or any later Vulture version
 #     hooks:
