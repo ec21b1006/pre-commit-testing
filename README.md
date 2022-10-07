@@ -10,7 +10,7 @@ You can check out version of the pre-commit by running this command:
 
 Now create a file named in your package naming `.pre-commit-config.yaml` and copy all the contents from the ".pre-commit-config.yaml" file available in this repository
 
-Installing pre-commit hooks(this command has to be run if you add a new hook in the pre-commit-config.yaml file):
+Now run this command install pre-commit hooks(this command has to be run if you add a new hook in the pre-commit-config.yaml file):
 
 `pre-commit install`
 
